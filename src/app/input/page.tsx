@@ -64,12 +64,6 @@ export default function InputPage() {
       label: '去洗澡',
       current: '现在晚上10点，我坐在房间里，知道该洗澡但一直在拖延',
       target: '我想去浴室洗个澡准备睡觉'
-    },
-    {
-      emoji: '📞',
-      label: '打重要电话',
-      current: '现在下午4点，我坐在桌前，手机就在旁边但一直不敢拿起来',
-      target: '我想拨打那个重要的工作电话'
     }
   ];
 

@@ -218,10 +218,13 @@ export default function ExecutePage() {
             {/* Completion celebration */}
             <div className="text-center py-6 bg-gradient-to-r from-green-50 to-blue-50 rounded-lg border border-green-200">
               <div className="text-4xl mb-2">🎉</div>
-              <h3 className="text-lg font-bold text-gray-800 mb-1">太棒了！成功启动！</h3>
+              <h3 className="text-lg font-bold text-gray-800 mb-1">完美启动！你已经开始了！</h3>
               <p className="text-gray-600 mb-2">你刚刚完成了 {steps.length} 个启动步骤</p>
-              <p className="text-sm text-purple-600 mb-4 font-medium">
-                🎯 最难的"开始"已经解决了！现在你已经在做这件事了！
+              <p className="text-sm text-purple-600 mb-2 font-medium">
+                🎯 最难的"开始"已经解决了！
+              </p>
+              <p className="text-sm text-blue-600 mb-4 font-medium">
+                💪 现在保持这个势头，继续完成接下来的事情吧！
               </p>
               <div className="flex gap-2 justify-center">
                 <button

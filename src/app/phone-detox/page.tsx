@@ -179,7 +179,7 @@ export default function PhoneDetoxPage() {
                   <div className="text-xs text-green-700 space-y-1">
                     <p>• 按照刚才记住的步骤顺序执行</p>
                     <p>• 从第一步开始，一步一步完成</p>
-                    <p>• 不要回来看手机，相信你的记忆</p>
+                    <p>• 保持这个势头，继续完成接下来的事情</p>
                     <p>• 完成后可以回来启动新任务</p>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ export default function PhoneDetoxPage() {
                     onClick={handleRestart}
                     className="w-full py-3 px-6 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 active:scale-95 shadow-lg hover:shadow-xl"
                   >
-                    🎯 完成后启动新任务
+                    💪 完成后启动新任务
                   </button>
                   
                   <button
